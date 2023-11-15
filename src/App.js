@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function App() {
   const [location, setLocation] = useState('');
   const [result, setResult] = useState({});
-  const API_KEY = "0243fae511e99b5faaade9b026f73a2c";
+  const API_KEY = "";
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}`;
   const searchWeather = async (e) => {
